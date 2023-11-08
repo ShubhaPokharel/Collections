@@ -181,6 +181,49 @@ If we delete the second element, one will connect to three in LinkedList. If we 
 ►In LinkedList format, if we insert and delete an object/element, there will be only a few changes. In ArratList, if we insert and delete an object/element, there will be many changes. Therefore, insertion and deletion is not recommanded in ArrayList. Also, it will take more time.
 
 
+# Sets
+
+Sets contain 3 classes: 
+
+HashSet
+
+LinkedHashSet
+
+TreeSet
+
+
+
+•HashSet is un-ordered
+
+•LinkedHashSet is ordered
+
+We will go for the set, if we need to store the unique elements.
+
+
+Example1-
+
+import java.util.*;
+
+public class Test{
+
+	public static void main(String[] args){
+
+	Set<String> popularCities = new HashSet<String>();
+
+   	popularCities.add("London");
+
+    	popularCities.add("NY");
+
+     	popularCities.add("Paris");
+
+      	popularCities.add("Dubai");
+   
+	}
+}
+
+
+
+
 
 
  
