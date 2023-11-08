@@ -131,6 +131,6 @@ public class ArrayListEx2{
 _____
 
 
-aaa              bbb               ccc             ddd
+aaa                            bbb                       ccc                    ddd
 
 
