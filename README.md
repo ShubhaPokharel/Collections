@@ -125,6 +125,12 @@ public class ArrayListEx2{
       
      
    }
+   
 }
+
+_____
+
+
+aaa              bbb               ccc             ddd
 
 
