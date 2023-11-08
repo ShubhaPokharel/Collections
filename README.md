@@ -21,6 +21,10 @@ ex: abcde ---> dbace
 
 In Sets,we have HasSet,LinkedHashSet, and TreeSet.
 
+
+
+# Lists
+
 - In Collection data, the index starts from zero
 
  
@@ -148,6 +152,35 @@ ArrayList is not good when we are searching for an object(searching operation). 
 ► ArrayList implements randomAccess interface which provides Data Access.
 
 ArrayList --> randomAccess --> provides Data Access
+
+ArrayList is index based. 
+
+index based: get(6) get(66) : searching
+
+It will find the index within a short amount of time.
+
+
+LinkedList is not based on index based
+
+
+LinkedList: get(6) : searching
+
+It will find the index, but it will take more time. It will go for every elemnt, which is sequential search. LinkedList is not good for index based.
+
+
+### LinkedList
+
+LinkedList will e arranged in double linked format.
+
+insertion deletion ---> adjust one link
+
+
+If we delete the second element, one will connect to three in LinkedList. If we delete the second and third element, one will connect to the fourth element. For the fifth, sixth and seventh elemnt, no changes will be required.
+
+
+►In LinkedList format, if we insert and delete an object/element, there will be only a few changes. In ArratList, if we insert and delete an object/element, there will be many changes. Therefore, insertion and deletion is not recommanded in ArrayList. Also, it will take more time.
+
+
 
 
  
