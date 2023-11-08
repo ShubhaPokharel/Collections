@@ -134,7 +134,7 @@ _____
 
 aaa.....bbb....ccc....ddd
 
-0.......1.......2......3
+0.........1.........2........3
 
 • When we try to insert a new object, the existing objects change their location. So the second object will be moved to the third place. Third object will be moved into the fourth location.
 
