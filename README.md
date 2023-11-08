@@ -132,6 +132,9 @@ _____
 
 ### ArrayList vs LinkedList
 
+
+### ArrayList
+
 aaa.....bbb....ccc....ddd
 
 0...........1...........2..........3
@@ -141,5 +144,11 @@ aaa.....bbb....ccc....ddd
 •If we delete an object, the third object will be placed into the second location. It will be shifted backwards. ArrayList isnt a recommanded choice.
 
 ArrayList is not good when we are searching for an object(searching operation). ArrayList is not good when we are deleting or inserting an object.
+
+► ArrayList implements randomAccess interface which provides Data Access.
+
+ArrayList --> randomAccess --> provides Data Access
+
+
  
 
