@@ -130,7 +130,15 @@ public class ArrayListEx2{
 
 _____
 
+ArrayList vs LinkedList
 
 aaa.....bbb....ccc....ddd
+0.......1.......2......3
+
+• When we try to insert a new object, the existing objects change their location. So the second object will be moved to the third place. Third object will be moved into the fourth location.
+
+•If we delete an object, the third object will be placed into the second location. It will be shifted backwards. ArrayList isnt a recommanded choice.
+
+ArrayList is not good when we are searching for an object(searching operation). ArrayList is not good when we are deleting or inserting an object.
  
 
