@@ -130,7 +130,7 @@ public class ArrayListEx2{
 
 _____
 
-ArrayList vs LinkedList
+### ArrayList vs LinkedList
 
 aaa.....bbb....ccc....ddd
 0.......1.......2......3
